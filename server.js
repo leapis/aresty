@@ -34,7 +34,7 @@ router.route('/view')
 
 router.route('/view/:passenger_id')
 
-    // get the bear with that id (accessed at GET http://localhost:8080/api/bears/:bear_id)
+    // exec script on passenger with that id (accessed at GET/POST http://localhost:8080/api/view/passenger_id)
     .get(getView)
     .post(getView);
 
